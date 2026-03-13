@@ -1,0 +1,16 @@
+name: wwtp-ew-limits
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - openpyxl
+  - pip
+  - pip:
+      - xgboost
